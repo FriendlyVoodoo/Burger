@@ -12,6 +12,7 @@ a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     display: block;
+    transition: all 0.5s ease;
 }
 li {
     list-style-type: none;
@@ -68,6 +69,9 @@ h1 span {
     padding-bottom: 20px;
     border-radius: 5px;
     width: 170px;
+}
+.about a:hover {
+    background: rgb(255, 255, 255);
 }
 .about__line {
     position: relative;
@@ -132,6 +136,9 @@ h1 span {
     border-radius: 5px;
     text-align: center;
 }
+.promo a:hover {
+    background: #FAF9F9;
+}
 .promo__one-txt {
     width: 378px;
     margin: 116px 152px 116px 50px;
@@ -172,23 +179,16 @@ h1 span {
     margin-bottom: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.burger4 {
-}
 .contacs__link {
 }
 .nav a {
     color: #dedede;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    margin-bottom: 18px;
+    margin-bottom: 17px;
 }
-.menu {
-}
-.oder {
-}
-.pay {
-}
-.contact {
+.contacs a:hover {
+    color: rgb(255, 187, 0);
 }
 .contacs__inf span{
     color: #dedede;
