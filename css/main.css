@@ -52,6 +52,7 @@ h1 span {
     width: 524px;
     font-size: 19px;
     font-family: "Lato", sans-serif;
+    font-weight: 300;
     font-weight: lighter;
     line-height: 1.4;
     color: #dedede;
@@ -99,6 +100,7 @@ h1 span {
 .promo__one-txt span {
     display: block;
     font-size: 14px;
+    text-transform: uppercase;
     background: #F37335;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -110,12 +112,18 @@ h1 span {
 .promo__one-txt h2 {
     margin-bottom: 8px;
     font-size: 60px;
+    font-weight: 800;
 }
 .promo p {
     color: #FAF9F9;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.1px;
 }
 .promo a {
     margin-top: 20px;
+    text-transform: uppercase;
     color: #1E2F40;
     background: #FBB731;
     padding-top: 20px;
@@ -152,8 +160,17 @@ h1 span {
     margin-top: 111px;
     margin-bottom: 106px;
 }
-.contacs h3 {
+.contacs h2 {
     color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    letter-spacing: 0.1px;
+}
+.contacs .contacs__link h2 {
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .burger4 {
 }
@@ -161,7 +178,9 @@ h1 span {
 }
 .nav a {
     color: #dedede;
-    line-height: 2;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    margin-bottom: 18px;
 }
 .menu {
 }
@@ -173,13 +192,21 @@ h1 span {
 }
 .contacs__inf span{
     color: #dedede;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
     display: block;
+}
+.contacs__inf p {
+    font-family: "Lato", sans-serif;
+    margin-bottom: 12px;
+    line-height: 1.8;
 }
 .contacs__inf {
     color: #FAF9F9;
-    line-height: 2;
 }
 .contacs__tel a {
     color: #FBB731;
     line-height: 2;
+    font-size: 20px;
+    font-weight: 800;
 }
