@@ -210,3 +210,33 @@ h1 span {
     font-size: 20px;
     font-weight: 800;
 }
+@media screen and (max-width: 1180px) {
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .container {
+        width: 100%;
+    }
+}
