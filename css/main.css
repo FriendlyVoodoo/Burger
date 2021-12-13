@@ -171,7 +171,7 @@ h1 span {
     color: #fff;
     font-size: 25px;
     font-weight: 800;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     letter-spacing: 0.1px;
 }
 .contacs .contacs__link h2 {
@@ -185,7 +185,7 @@ h1 span {
     color: #dedede;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
 }
 .contacs a:hover {
     color: rgb(255, 187, 0);
@@ -198,7 +198,7 @@ h1 span {
 }
 .contacs__inf p {
     font-family: "Lato", sans-serif;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
     line-height: 1.8;
 }
 .contacs__inf {
