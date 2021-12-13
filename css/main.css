@@ -13,11 +13,12 @@ a {
     text-decoration: none;
     display: block;
 }
-ul, li {
-    text-decoration: none;
+li {
+    list-style-type: none;
 }
 .header {
     background: linear-gradient(180deg, #0c4c7b -100%, #1e2f40 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .container {
     max-width: 1180px;
@@ -57,12 +58,15 @@ h1 span {
     margin-bottom: 65px;
 }
 .about__link {
+    text-align: center;
     font-size: 14px;
     text-transform: uppercase;
     color: #1e2f40;
     background: #fbb731;
-    padding: 20px 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 5px;
+    width: 170px;
 }
 .about__line {
     position: relative;
@@ -96,9 +100,10 @@ h1 span {
     display: block;
     font-size: 14px;
     background: #F37335;
-    padding: 5px 18.5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 102px;
-    border-radius: 10px;
+    border-radius: 50px;
     margin-bottom: 3px;
     text-align: center;
 }
@@ -113,7 +118,8 @@ h1 span {
     margin-top: 20px;
     color: #1E2F40;
     background: #FBB731;
-    padding: 20px 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 170px;
     border-radius: 5px;
     text-align: center;
@@ -134,15 +140,28 @@ h1 span {
     width: 353px;
     margin: 102px 177px 101px 50px;
 }
+.footer {
+    background: #1E2F40;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .contacs {
     display: flex;
     justify-content: space-between;
+    height: 186px;
+    margin-top: 111px;
+    margin-bottom: 106px;
+}
+.contacs h3 {
+    color: #fff;
 }
 .burger4 {
 }
 .contacs__link {
 }
-.nav {
+.nav a {
+    color: #dedede;
+    line-height: 2;
 }
 .menu {
 }
@@ -152,7 +171,15 @@ h1 span {
 }
 .contact {
 }
-.contacs__inf {
+.contacs__inf span{
+    color: #dedede;
+    display: block;
 }
-.contacs__tel {
+.contacs__inf {
+    color: #FAF9F9;
+    line-height: 2;
+}
+.contacs__tel a {
+    color: #FBB731;
+    line-height: 2;
 }
